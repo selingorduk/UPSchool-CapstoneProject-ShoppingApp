@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShoopingApp.DataAccess\ShoopingApp.DataAccess.csproj" />
+    <ProjectReference Include="..\ShoppingApp.Business\ShoppingApp.Business.csproj" />
+    <ProjectReference Include="..\ShoppingApp.Entities\ShoppingApp.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
