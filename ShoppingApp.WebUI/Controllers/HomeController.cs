@@ -21,11 +21,13 @@ namespace ShoppingApp.WebUI.Controllers
         {
             return View(new ProductListModel()
             {
-                Products = _productService.GetAll(),
-                //Products = _productService.GetPopularProducts()
+                Products = _productService.GetAll()
+            });
 
-                //Categories = _categoryService.GetAll()
-            }) ;
+            //Products = _productService.GetPopularProducts()
+
+            //Categories = _categoryService.GetAll()
+
         }
         //return View(_productService.GetAll()); //direkt memory üzerinden tüm bilgiler gelir. düzeltilmeli!!!
     }

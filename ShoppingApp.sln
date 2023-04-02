@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.33130.400
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.Entities", "ShoppingApp.Entities\ShoppingApp.Entities.csproj", "{6551EDCD-A489-4A59-A83F-EBE92329B99F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoopingApp.DataAccess", "ShoopingApp.DataAccess\ShoopingApp.DataAccess.csproj", "{B5777945-A207-49EA-9E24-0EC6CF8E20E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.DataAccess", "ShoopingApp.DataAccess\ShoppingApp.DataAccess.csproj", "{B5777945-A207-49EA-9E24-0EC6CF8E20E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.Business", "ShoppingApp.Business\ShoppingApp.Business.csproj", "{D0F14057-257E-47DB-9D8B-D182F39DE292}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.WebUI", "ShoppingApp.WebUI\ShoppingApp.WebUI.csproj", "{7E09539D-8EC1-4A2C-BE10-37345D388445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.WebUI", "ShoppingApp.WebUI\ShoppingApp.WebUI.csproj", "{7E09539D-8EC1-4A2C-BE10-37345D388445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingAppDataAccess", "ShoppingApp.DataAccess\ShoppingAppDataAccess\ShoppingAppDataAccess.csproj", "{E501A6A4-7452-495A-BC1D-C6C670C7BEB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7E09539D-8EC1-4A2C-BE10-37345D388445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E09539D-8EC1-4A2C-BE10-37345D388445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E09539D-8EC1-4A2C-BE10-37345D388445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E501A6A4-7452-495A-BC1D-C6C670C7BEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E501A6A4-7452-495A-BC1D-C6C670C7BEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E501A6A4-7452-495A-BC1D-C6C670C7BEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E501A6A4-7452-495A-BC1D-C6C670C7BEB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
