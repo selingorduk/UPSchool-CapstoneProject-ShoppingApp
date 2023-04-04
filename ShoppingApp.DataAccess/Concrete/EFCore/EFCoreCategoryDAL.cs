@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ShoopingApp.DataAccess.Abstract;
+using ShoppingApp.DataAccess.Abstract;
 using ShoppingApp.Entities;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShoopingApp.DataAccess.Concrete.EFCore
+namespace ShoppingApp.DataAccess.Concrete.EFCore
 {
     public class EFCoreCategoryDAL : EFCoreGenericRepository<Category, ShoppingContext>, ICategoryDAL
 

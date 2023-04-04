@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ShoopingApp.DataAccess.Concrete.EFCore;
+using ShoppingApp.DataAccess.Concrete.EFCore;
 
-namespace ShoopingApp.DataAccess.Migrations
+namespace ShoppingApp.DataAccess.Migrations
 {
     [DbContext(typeof(ShoppingContext))]
-    [Migration("20230402203729_AddingIdentity")]
-    partial class AddingIdentity
+    [Migration("20230404084410_FirstMig")]
+    partial class FirstMig
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ShoopingApp.DataAccess.Concrete.EFCore;
+using ShoppingApp.DataAccess.Concrete.EFCore;
 
-namespace ShoopingApp.DataAccess.Migrations
+namespace ShoppingApp.DataAccess.Migrations
 {
     [DbContext(typeof(ShoppingContext))]
     partial class ShoppingContextModelSnapshot : ModelSnapshot

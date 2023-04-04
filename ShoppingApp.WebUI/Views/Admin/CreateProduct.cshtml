@@ -7,7 +7,7 @@
 @section Scripts {
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/modules/ckeditor/ckeditor.js"></script>  ????
+    <script src="~/modules/ckeditor/ckeditor.js"></script>  
     <script>
         CKEDITOR.replace("editor");
     </script>
@@ -25,7 +25,6 @@
 
 
         <form asp-controller="Admin" asp-action="CreateProduct" method="post">
-            //input eklendi 43.ders
             <div asp-validation-summary="All" class="text-danger"></div>
             <div class="form-group row">
                 <label asp-for="Name" class="col-md-2 col-form-label"></label>

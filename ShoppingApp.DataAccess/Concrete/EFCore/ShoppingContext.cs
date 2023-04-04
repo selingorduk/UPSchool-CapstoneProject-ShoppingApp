@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShoopingApp.DataAccess.Concrete.EFCore
+namespace ShoppingApp.DataAccess.Concrete.EFCore
 {
     public class ShoppingContext:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=ShoppingDB;integrated security=true");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=ShopDB;integrated security=true");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

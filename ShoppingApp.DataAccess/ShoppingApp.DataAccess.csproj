@@ -6,12 +6,14 @@
 
   <ItemGroup>
     <Compile Remove="Concrete\Memory\**" />
+    <Compile Remove="Concrete\MySQL\**" />
     <EmbeddedResource Remove="Concrete\Memory\**" />
+    <EmbeddedResource Remove="Concrete\MySQL\**" />
     <None Remove="Concrete\Memory\**" />
+    <None Remove="Concrete\MySQL\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\MySQL\" />
     <Folder Include="Concrete\Oracle\" />
   </ItemGroup>
 

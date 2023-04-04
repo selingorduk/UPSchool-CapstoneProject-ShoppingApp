@@ -1,5 +1,5 @@
 ﻿using ShoppingApp.Business.Abstract;
-using ShoopingApp.DataAccess.Abstract;
+using ShoppingApp.DataAccess.Abstract;
 using ShoppingApp.Entities;
 using System;
 using System.Collections.Generic;

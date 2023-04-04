@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShoopingApp.DataAccess.Concrete.EFCore
+namespace ShoppingApp.DataAccess.Concrete.EFCore
 {
     public static class SeedDatabase
     {

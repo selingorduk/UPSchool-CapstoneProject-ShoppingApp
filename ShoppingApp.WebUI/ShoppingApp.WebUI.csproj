@@ -18,9 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ShoppingApp.DataAccess\ShoppingApp.DataAccess.csproj" />
     <ProjectReference Include="..\ShoppingApp.Business\ShoppingApp.Business.csproj" />
-    <ProjectReference Include="..\ShoppingApp.DataAccess\ShoppingAppDataAccess\ShoppingAppDataAccess.csproj" />
+    <ProjectReference Include="..\ShoppingApp.DataAccess\ShoppingApp.DataAccess.csproj" />
     <ProjectReference Include="..\ShoppingApp.Entities\ShoppingApp.Entities.csproj" />
   </ItemGroup>
 
